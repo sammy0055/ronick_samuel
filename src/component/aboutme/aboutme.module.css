@@ -1,0 +1,125 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navcontainer {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.CotentSection {
+  margin-top: 7rem;
+}
+
+.aboutmetap {
+  width: 6rem;
+  height: 2rem;
+  color: #161616;
+  background-color: #fff;
+  text-align: center;
+  padding: 3px 5px 3px 5px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.aboutcontent-wrapper {
+  font-size: 1rem;
+}
+
+.aboutcontent-wrapper > h1 {
+  font-size: 2.3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.aboutcontent-wrapper > h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.aboutcontent-wrapper > p {
+  line-height: 1.9;
+  text-align: justify;
+}
+
+.aboutcontent-wrapper > ul {
+  color: #bdd5db;
+  margin-left: 5rem;
+  line-height: 2rem;
+}
+
+.blog-section {
+  margin-top: 1.2rem;
+}
+
+.blog-section-heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.project-section-heading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.project-section-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.postcard {
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1ch;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.postcard:hover {
+  background-color: #3700b3; /* Darker purple on hover */
+  transform: scale(1.1); /* Scale up on hover */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}
+
+.projectcard {
+  margin-top: 1rem;
+  width: 20rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1ch;
+  cursor: pointer;
+}
+
+.projectcard-img-cont {
+  width: 100%;
+  height: 10rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 1ch 1ch 0ch 0ch;
+}
+
+.projectcard-img-cont > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.projectcard-text-cont {
+  padding: 0.5rem;
+}
+
+.letsconnect {
+  margin-top: 4rem;
+}
+
+.letsconnect > p {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}

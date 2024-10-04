@@ -1,0 +1,67 @@
+{
+  "name": "Ronick Samuel",
+  "aboutMe": "I’m Samuel Chukwuwike Ronick, a full stack web developer with 5+ years of experience building high-performance applications. I specialize in React, Next.js, Node.js, MongoDB, GraphQL, and AWS/GCP, delivering scalable solutions that drive business growth.\n\nI’ve led projects that reduced response times by 30%, streamlined social media automation, and integrated advanced payment and authentication systems. My expertise spans from developing robust APIs to optimizing performance and deploying cloud-native architectures.",
+  "blogs": [
+    {
+      "title": "Deploy Express App as AWS Lambda Container with API Gateway using Terraform",
+      "description": "This tutorial provides a step-by-step guide to containerizing your application, deploying it to AWS Elastic Container Registry (ECR), creating a Lambda function from the container image, and connecting it to API Gateway, all using Terraform for efficiency and simplicity.",
+      "date": "",
+      "link": "https://dev.to/samuelronick/deploy-express-app-as-aws-lambda-container-with-api-gateway-using-terraform-35k3"
+    },
+    {
+      "title": "Step-by-Step Guide: How to Set Up Meta WhatsApp API to Manage WhatsApp Business Accounts (WABA) - Part One",
+      "description": "Step-by-Step Guide: How to Set Up Meta WhatsApp API to Manage WhatsApp Business Accounts (WABA)",
+      "link": "https://www.linkedin.com/pulse/step-by-step-guide-how-set-up-meta-whatsapp-api-manage-samuel-ronick-w6gvf/?trackingId=iccffnNqRamT0PiKw1cbrA%3D%3D"
+    },
+    {
+      "title": "Step-by-Step Guide: How to Set Up Meta WhatsApp API to Manage WhatsApp Business Accounts (WABA) - Part Two",
+      "description": "In Part Two of this tutorial, you'll learn how to onboard WhatsApp Business Accounts (WABA), set up webhooks to receive events, and explore additional WhatsApp endpoints for various business applications, following the \"Get Started for Tech Providers\" or \"Get Started for Solution Partners\" guides.",
+      "date": "",
+      "link": "https://www.linkedin.com/pulse/step-by-step-guide-how-set-up-meta-whatsapp-api-manage-samuel-ronick-mgeaf/?trackingId=eK4mP7wPT%2BCGOJtASzu5YA%3D%3D"
+    },
+    {
+      "title": "A Comprehensive Guide to Software Testing Principles and Strategies",
+      "description": "This article addresses common questions about software testing, highlighting its importance in the development process for both startups and large enterprises. It emphasizes how effective testing contributes to enhancing software quality, reliability, and robustness.",
+      "date": "",
+      "link": "https://medium.com/@ronicksamuel/a-comprehensive-guide-to-software-testing-principles-and-strategies-9f1efed8cda3"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Kindroom Property Management Platform",
+      "image": {
+        "src": "kindroom-img.png",
+        "alt": "kindroom project"
+      },
+      "thumbnail": "",
+      "description": ""
+    },
+    {
+      "title": "Kindroom Property Management Platform",
+      "image": {
+        "src": "kindroom-img.png",
+        "alt": "kindroom project"
+      },
+      "thumbnail": "",
+      "description": ""
+    },
+    {
+      "title": "Kindroom Property Management Platform",
+      "image": {
+        "src": "kindroom-img.png",
+        "alt": "kindroom project"
+      },
+      "thumbnail": "",
+      "description": ""
+    },
+    {
+      "title": "Kindroom Property Management Platform",
+      "image": {
+        "src": "kindroom-img.png",
+        "alt": "kindroom project"
+      },
+      "thumbnail": "",
+      "description": ""
+    }
+  ]
+}
