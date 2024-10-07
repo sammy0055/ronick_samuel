@@ -31,7 +31,7 @@
       "id": 1,
       "title": "Kindroom - A Skill-Based Approach to Affordable Housing",
       "role": "Full Stack Web Developer",
-      "link":"https://kindroom.com",
+      "link": "https://kindroom.com",
       "technologies": [
         "GraphQL",
         "Firebase",
@@ -69,92 +69,44 @@
           ]
         }
       ],
-      "summary":"The project was a collaborative effort, ensuring alignment with business requirements while maintaining a high level of user experience."
+      "summary": "The project was a collaborative effort, ensuring alignment with business requirements while maintaining a high level of user experience."
     },
     {
       "id": 2,
-      "title": "Kindroom Property Management Platform",
+      "title": "Amaziri – AI-Powered Business Assistant for Social Media Automation",
       "role": "Full Stack Web Developer",
-      "link":"https://kindroom.com",
+      "link": "https://github.com/sammy0055",
       "technologies": [
+        "Node.js",
         "GraphQL",
+        "AWS Serverless",
+        "Terraform",
+        "Docker",
         "Firebase",
-        "Auth",
         "MongoDB",
-        "Stripe",
-        "Recoil",
-        "Next.js"
+        "Next.js",
+        "Meta API (FACEBOOK, WHATSAPP (WABA), INSTAGRAM)"
       ],
       "image": {
-        "src": "kindroom-img.png",
-        "alt": "kindroom project"
+        "src": "amaziri-img.png",
+        "alt": "amaziri project"
       },
       "thumbnail": "",
-      "description": "",
+      "description": "Amaziri is a smart business assistant designed to automate social media activities by leveraging business-specific data. I played a leading role in its development, focusing on key features that deliver impactful automation solutions for businesses",
       "contributions": [
         {
-          "heading": "",
-          "contributions": []
+          "heading": "Highlights:",
+          "contributions": [
+            "Knowledge Base Development: Spearheaded the creation of a robust knowledge base feature using Retrieval-Augmented Generation (RAG) with OpenAI's embeddings model. Implemented MongoDB with vector support for efficient data storage and retrieval, alongside AWS S3 for document storage, enabling seamless access to business insights.",
+            "AI Assistant Feature: Led the development of an AI-powered assistant that combines the knowledge base's RAG capabilities with a large language model (LLM). This feature automates content creation and customer interactions, tailored to each business's specific needs.",
+            "Custom Branding Integration: Implemented a system allowing users to customize AI-generated content based on their unique brand voice, ensuring that the output aligns with their writing style and tone for consistent branding across platforms.",
+            "Meta API Integration: Directed the integration of Meta APIs for Facebook, Instagram, and WhatsApp Business (WABA). This enables users to automate and manage social media interactions across these major platforms efficiently.",
+            "Modular Workflow Automation: Developed a modular workflow automation engine where users can design and execute automated workflows. This allows businesses to streamline tasks based on their specific requirements, significantly improving productivity and reducing manual effort.",
+            "Cloud Deployment Orchestration: Led the orchestration of cloud deployments to AWS services, including Lambda, ECR, and API Gateway, using Docker and Terraform. This ensures scalability, security, and seamless delivery of services to clients."
+          ]
         }
       ],
-      "summary":""
-    },
-    {
-      "id": 3,
-      "title": "Kindroom Property Management Platform",
-      "role": "Full Stack Web Developer",
-      "link":"https://kindroom.com",
-      "technologies": [
-        "GraphQL",
-        "Firebase",
-        "Auth",
-        "MongoDB",
-        "Stripe",
-        "Recoil",
-        "Next.js"
-      ],
-      "image": {
-        "src": "kindroom-img.png",
-        "alt": "kindroom project"
-      },
-      "thumbnail": "",
-      "description": "",
-      "contributions": [
-        {
-          "heading": "",
-          "contributions": []
-        }
-      ],
-      "summary":""
-    },
-    {
-      "id": 4,
-      "title": "Kindroom Property Management Platform",
-      "role": "Full Stack Web Developer",
-      "link":"https://kindroom.com",
-      "technologies": [
-        "GraphQL",
-        "Firebase",
-        "Auth",
-        "MongoDB",
-        "Stripe",
-        "Recoil",
-        "Next.js"
-      ],
-      "image": {
-        "src": "kindroom-img.png",
-        "alt": "kindroom project"
-      },
-      "thumbnail": "",
-      "description": "",
-      "contributions": [
-        {
-          "heading": "",
-          "contributions": []
-        }
-      ],
-       "summary":""
+      "summary": "Amaziri is a personal project, demonstrating my ability to independently lead and manage complex software development efforts. I ensured alignment with business needs while maintaining a focus on delivering an exceptional user experience."
     }
   ]
- 
 }
