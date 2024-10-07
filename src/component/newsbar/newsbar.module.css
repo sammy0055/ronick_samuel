@@ -7,6 +7,8 @@
   margin-bottom: 1rem;
   background: radial-gradient(circle, rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
   animation: gradientAnimation 15s ease infinite;
+  position: sticky;
+  top: 0;
 }
 
 .newsbar > span {
@@ -14,25 +16,45 @@
   font-size: 1.3rem;
 }
 
-.newsbarLinks > a{
+.newsbarLinks > a {
   font-weight: 600;
   font-size: 1.2rem;
 }
 
 @keyframes gradientAnimation {
   0% {
-      background: radial-gradient(circle, rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+    background: radial-gradient(
+      circle,
+      rgba(255, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.8)
+    );
   }
   25% {
-      background: radial-gradient(circle, rgba(255, 127, 0, 0.5), rgba(0, 0, 0, 0.8));
+    background: radial-gradient(
+      circle,
+      rgba(255, 127, 0, 0.5),
+      rgba(0, 0, 0, 0.8)
+    );
   }
   50% {
-      background: radial-gradient(circle, rgba(0, 255, 0, 0.5), rgba(0, 0, 0, 0.8));
+    background: radial-gradient(
+      circle,
+      rgba(0, 255, 0, 0.5),
+      rgba(0, 0, 0, 0.8)
+    );
   }
   75% {
-      background: radial-gradient(circle, rgba(0, 127, 255, 0.5), rgba(0, 0, 0, 0.8));
+    background: radial-gradient(
+      circle,
+      rgba(0, 127, 255, 0.5),
+      rgba(0, 0, 0, 0.8)
+    );
   }
   100% {
-      background: radial-gradient(circle, rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+    background: radial-gradient(
+      circle,
+      rgba(255, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.8)
+    );
   }
 }

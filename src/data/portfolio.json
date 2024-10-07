@@ -1,5 +1,5 @@
 {
-  "name": "Ronick Samuel",
+  "name": "Samuel Ronick",
   "aboutMe": "I’m Samuel Chukwuwike Ronick, a full stack web developer with 5+ years of experience building high-performance applications. I specialize in React, Next.js, Node.js, MongoDB, GraphQL, and AWS/GCP, delivering scalable solutions that drive business growth.\n\nI’ve led projects that reduced response times by 30%, streamlined social media automation, and integrated advanced payment and authentication systems. My expertise spans from developing robust APIs to optimizing performance and deploying cloud-native architectures.",
   "blogs": [
     {
@@ -28,40 +28,133 @@
   ],
   "projects": [
     {
-      "title": "Kindroom Property Management Platform",
+      "id": 1,
+      "title": "Kindroom - Robust Room Booking Platform",
+      "role": "Full Stack Web Developer",
+      "link":"https://kindroom.com",
+      "technologies": [
+        "GraphQL",
+        "Firebase",
+        "Auth",
+        "MongoDB",
+        "Stripe",
+        "Recoil",
+        "Next.js"
+      ],
       "image": {
         "src": "kindroom-img.png",
         "alt": "kindroom project"
       },
       "thumbnail": "",
-      "description": ""
+      "description": "Kindroom is a dynamic room booking platform designed to streamline the process of finding and reserving accommodation. My role involved building both the front-end and back-end, with a focus on performance optimization, security, and user experience.",
+      "contributions": [
+        {
+          "heading": "Back-end Highlights:",
+          "contributions": [
+            "Developed a GraphQL API server that improved response times by 30%.",
+            "Implemented authentication and role-based authorization using Firebase Auth for secure access control.",
+            "Integrated a comprehensive Stripe payment system for smooth transaction handling, covering payment methods and subscription schedules.",
+            "Designed efficient MongoDB connections and data models with Mongoose for managing room data.",
+            "Built a data filtering and query system using MongoDB operators and aggregations, allowing users to search and filter rooms based on various criteria."
+          ]
+        },
+        {
+          "heading": "Front-end Highlights:",
+          "contributions": [
+            "Connected the front-end with the GraphQL API for real-time data fetching.",
+            "Utilized Next.js server-side rendering for better SEO and improved page performance.",
+            "Managed state efficiently using Recoil and React, enhancing the user experience.",
+            "Implemented lazy loading and code splitting techniques to optimize the page load time and reduce bundle size.",
+            "Ensured robust security by integrating Firebase to manage and secure user sessions."
+          ]
+        }
+      ],
+      "summary":"The project was a collaborative effort, ensuring alignment with business requirements while maintaining a high level of user experience."
     },
     {
+      "id": 2,
       "title": "Kindroom Property Management Platform",
+      "role": "Full Stack Web Developer",
+      "link":"https://kindroom.com",
+      "technologies": [
+        "GraphQL",
+        "Firebase",
+        "Auth",
+        "MongoDB",
+        "Stripe",
+        "Recoil",
+        "Next.js"
+      ],
       "image": {
         "src": "kindroom-img.png",
         "alt": "kindroom project"
       },
       "thumbnail": "",
-      "description": ""
+      "description": "",
+      "contributions": [
+        {
+          "heading": "",
+          "contributions": []
+        }
+      ],
+      "summary":""
     },
     {
+      "id": 3,
       "title": "Kindroom Property Management Platform",
+      "role": "Full Stack Web Developer",
+      "link":"https://kindroom.com",
+      "technologies": [
+        "GraphQL",
+        "Firebase",
+        "Auth",
+        "MongoDB",
+        "Stripe",
+        "Recoil",
+        "Next.js"
+      ],
       "image": {
         "src": "kindroom-img.png",
         "alt": "kindroom project"
       },
       "thumbnail": "",
-      "description": ""
+      "description": "",
+      "contributions": [
+        {
+          "heading": "",
+          "contributions": []
+        }
+      ],
+      "summary":""
     },
     {
+      "id": 4,
       "title": "Kindroom Property Management Platform",
+      "role": "Full Stack Web Developer",
+      "link":"https://kindroom.com",
+      "technologies": [
+        "GraphQL",
+        "Firebase",
+        "Auth",
+        "MongoDB",
+        "Stripe",
+        "Recoil",
+        "Next.js"
+      ],
       "image": {
         "src": "kindroom-img.png",
         "alt": "kindroom project"
       },
       "thumbnail": "",
-      "description": ""
+      "description": "",
+      "contributions": [
+        {
+          "heading": "",
+          "contributions": []
+        }
+      ],
+       "summary":""
     }
   ]
+ 
 }

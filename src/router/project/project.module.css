@@ -1,0 +1,53 @@
+.app {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+}
+
+.project {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading > p {
+  margin-top: 0.5rem;
+}
+
+.projectcard-img-cont {
+  margin-top: 1rem;
+  width: 100%;
+  height: 15rem;
+}
+
+.projectcard-img-cont > img {
+  object-fit: cover;
+  width: 100%;
+  height: 15rem;
+}
+
+.project-overview {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.project-heighlight {
+  margin-top: 3rem;
+}
+
+.project-heighlight > ul {
+  margin-left: 1rem;
+  color: #bdd5db;
+}
+
+.project-heighlight > ul > li {
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+.project-summary {
+  margin-top: 2rem;
+  text-align: justify;
+}

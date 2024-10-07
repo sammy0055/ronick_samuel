@@ -15,7 +15,7 @@ const AboutMe = () => {
   );
 };
 
-const HeroSection = () => {
+export const HeroSection = () => {
   return (
     <div className={styles["navbar"]}>
       <Heading>🧑‍💻{portfolio.name}</Heading>
@@ -71,8 +71,13 @@ const BlogSection = () => {
         <Link to="">See All Post</Link>
       </div>
       <div>
-        {portfolio.blogs.map((blog) => (
-          <PostCard title={blog.title} description={blog.description} />
+        {portfolio.blogs.map((blog, index) => (
+          <PostCard
+            key={index}
+            title={blog.title}
+            description={blog.description}
+            link={blog.link}
+          />
         ))}
       </div>
     </div>
@@ -88,7 +93,13 @@ const ProjectSection = () => {
       </div>
       <div className={styles["project-section-content"]}>
         {portfolio.projects.map((project) => (
-          <ProjectCard title={project.title} image={project.image} />
+          <ProjectCard
+            key={project.id}
+            title={project.title}
+            image={project.image}
+            id={project.id}
+            description={project.description}
+          />
         ))}
       </div>
     </div>
@@ -98,36 +109,46 @@ const ProjectSection = () => {
 interface PostCardProps {
   title: string;
   description: string;
+  link: string;
 }
 
-const PostCard: React.FC<PostCardProps> = ({ title, description }) => {
+const PostCard: React.FC<PostCardProps> = ({ title, description, link }) => {
   return (
     <div className={styles["postcard"]}>
-      <h3>{title}</h3>
-      <p>{description}</p>
+      <a href={link}>
+        <h3>{title}</h3>
+        <p>{description}</p>
+      </a>
     </div>
   );
 };
 
 interface ProjectCardProps {
+  id: number;
   title: string;
-  description?: string;
+  description: string;
   thumbnail?: string;
   image: {
     src: string;
     alt: string;
   };
 }
-const ProjectCard: React.FC<ProjectCardProps> = ({ title, image }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({
+  id,
+  title,
+  description,
+  image,
+}) => {
   return (
-    <div className={styles["projectcard"]}>
+    <Link className={styles["projectcard"]} to={`/project/${id}`}>
       <div className={styles["projectcard-img-cont"]}>
         <img src={image.src} alt={image.alt} />
       </div>
       <div className={styles["projectcard-text-cont"]}>
-        <p>{title}</p>
+        <h3>{title}</h3>
+        <p>{description}</p>
       </div>
-    </div>
+    </Link>
   );
 };
 

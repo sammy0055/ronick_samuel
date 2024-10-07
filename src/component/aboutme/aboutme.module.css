@@ -83,6 +83,14 @@
   transition: all 0.3s ease;
 }
 
+.postcard > a {
+  text-decoration: none;
+}
+
+.postcard > a > p {
+  margin-top: 1rem;
+}
+
 .postcard:hover {
   background-color: #3700b3; /* Darker purple on hover */
   transform: scale(1.1); /* Scale up on hover */
@@ -95,6 +103,7 @@
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 1ch;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .projectcard-img-cont {
@@ -112,6 +121,10 @@
 
 .projectcard-text-cont {
   padding: 0.5rem;
+}
+
+.projectcard-text-cont > p {
+  margin-top: 1rem;
 }
 
 .letsconnect {
