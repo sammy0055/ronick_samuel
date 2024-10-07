@@ -29,7 +29,7 @@
   "projects": [
     {
       "id": 1,
-      "title": "Kindroom - Robust Room Booking Platform",
+      "title": "Kindroom - A Skill-Based Approach to Affordable Housing",
       "role": "Full Stack Web Developer",
       "link":"https://kindroom.com",
       "technologies": [
@@ -46,7 +46,7 @@
         "alt": "kindroom project"
       },
       "thumbnail": "",
-      "description": "Kindroom is a dynamic room booking platform designed to streamline the process of finding and reserving accommodation. My role involved building both the front-end and back-end, with a focus on performance optimization, security, and user experience.",
+      "description": "Kindroom is a platform that allows tenants to exchange their skills for accommodation instead of paying traditional rent. My role involved building both the front-end and back-end, with a focus on performance optimization, security, and user experience.",
       "contributions": [
         {
           "heading": "Back-end Highlights:",

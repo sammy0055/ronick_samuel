@@ -67,9 +67,9 @@ interface ProjectMediaProps {
 }
 
 const ProjectMedia: React.FC<ProjectMediaProps> = ({ src, alt }) => {
-  return (
+    return (
     <div className={styles["projectcard-img-cont"]}>
-      <img src={src} alt={alt} />
+      <img src={`../../../${src}`} alt={alt} />
     </div>
   );
 };

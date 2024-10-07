@@ -13,7 +13,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "project/:projectId",
+    path: "/project/:projectId",
     element: <ProjectDisplay />,
   },
 ]);
