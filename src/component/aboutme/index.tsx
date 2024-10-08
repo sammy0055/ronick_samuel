@@ -54,9 +54,13 @@ const CotentSection = () => {
             team to get the most out of your platform. I offer flexible,
             expert-led services that are tailored to your needs.
           </li>
-
         </ul>
-
+        <p className={styles["connect-wrapper"]}>
+          I believe in collaborating closely with my clients to understand their
+          business challenges and deliver solutions that make an impact. Whether
+          you're in e-commerce, healthcare, real estate, or professional
+          services, I can help you take your digital platform to the next level.
+        </p>
         <h2>Technical Skils! 🤹‍♂️</h2>
         <ul>
           <li>Languages: JavaScript, TypeScript</li>
@@ -67,7 +71,7 @@ const CotentSection = () => {
             Cloud Platforms & DevOps: AWS (Lambda, API Gateway, S3, ecr), Google
             Cloud Platform, Docker, Terraform
           </li>
-          Payment Integration: Stripe (Payments, Subscriptions, Webhooks)
+          <li>Payment Integration: Stripe (Payments, Subscriptions, Webhooks)</li>
           <li>Version Control: Git, GitHub</li>
         </ul>
         <p className={styles["connect-wrapper"]}>
