@@ -42,6 +42,10 @@
   text-align: justify;
 }
 
+.connect-wrapper {
+  margin-top: 1rem;
+}
+
 .aboutcontent-wrapper > ul {
   color: #bdd5db;
   margin-left: 5rem;

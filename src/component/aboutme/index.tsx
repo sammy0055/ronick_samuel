@@ -46,7 +46,7 @@ const CotentSection = () => {
           Payment Integration: Stripe (Payments, Subscriptions, Webhooks)
           <li>Version Control: Git, GitHub</li>
         </ul>
-        <p>
+        <p className={styles["connect-wrapper"]}>
           🙋‍♂️ Quite a journey, right? lets transform your ideas into powerful web
           solutions? Let’s make it happen. 🤙🤳
           <span>
