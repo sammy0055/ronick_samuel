@@ -33,6 +33,30 @@ const CotentSection = () => {
       <div className={styles["aboutcontent-wrapper"]}>
         <h1>Hello! 👋🏻</h1>
         <p>{portfolio.aboutMe}</p>
+        <h2>Here’s what I bring to the table: 🤹‍♂️</h2>
+        <ul>
+          <li>
+            Platform Optimization: I work on identifying and eliminating
+            bottlenecks in your platform to improve speed, scalability, and user
+            experience.
+          </li>
+          <li>
+            Feature Integration: Need new features or custom functionality? I
+            seamlessly integrate features that align with your business goals.
+          </li>
+          <li>
+            AI-Powered Enhancements: From automation to predictive analytics, I
+            use AI to enhance your platform’s capabilities and drive better
+            outcomes for your business.
+          </li>
+          <li>
+            Cost-Effective Solutions: You don’t need an in-house development
+            team to get the most out of your platform. I offer flexible,
+            expert-led services that are tailored to your needs.
+          </li>
+
+        </ul>
+
         <h2>Technical Skils! 🤹‍♂️</h2>
         <ul>
           <li>Languages: JavaScript, TypeScript</li>

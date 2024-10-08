@@ -1,6 +1,6 @@
 {
   "name": "Samuel Ronick",
-  "aboutMe": "I’m Samuel Chukwuwike Ronick, a full stack web developer with 5+ years of experience building high-performance applications. I specialize in React, Next.js, Node.js, MongoDB, GraphQL, and AWS/GCP, delivering scalable solutions that drive business growth.\n\nI’ve led projects that reduced response times by 30%, streamlined social media automation, and integrated advanced payment and authentication systems. My expertise spans from developing robust APIs to optimizing performance and deploying cloud-native architectures.",
+  "aboutMe": "Hi, I’m Samuel Ronick, a seasoned AI and web development consultant with over 5 years of experience helping businesses unlock the full potential of their digital platforms. Whether you're running a SaaS business, an e-commerce store, or a service-based company, I specialize in improving existing platforms by integrating cutting-edge features and optimizing performance. I started my career as a full-stack developer, building high-performance web applications and gradually shifted my focus to AI-powered solutions and platform enhancements. My goal is to make your platform smarter, faster, and more efficient—helping you stay ahead in a competitive market without the overhead of hiring an internal development team.",
   "blogs": [
     {
       "title": "Deploy Express App as AWS Lambda Container with API Gateway using Terraform",
