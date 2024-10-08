@@ -58,3 +58,10 @@
     );
   }
 }
+
+
+@media screen and (max-width: 412px) {
+  .mb-span{
+    display: none;
+  }
+}

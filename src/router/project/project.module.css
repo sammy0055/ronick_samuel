@@ -51,3 +51,18 @@
   margin-top: 2rem;
   text-align: justify;
 }
+
+@media screen and (max-width: 412px) {
+  .app {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .project {
+    flex-direction: column;
+  }
+
+  .projectcard-img-cont > img{
+    object-fit: contain;
+  }
+}

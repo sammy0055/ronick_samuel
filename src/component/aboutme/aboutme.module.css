@@ -140,3 +140,15 @@
   margin-bottom: 1rem;
   font-weight: 600;
 }
+
+@media screen and (max-width: 412px) {
+  .navbar {
+    font-size: 0.5rem;
+  }
+
+  .projectcard {
+    width: 100%;
+  }
+
+
+}
