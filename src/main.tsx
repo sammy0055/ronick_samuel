@@ -6,6 +6,7 @@ import NewsBar from "./component/newsbar/index.tsx";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ProjectDisplay from "./router/project/index.tsx";
+import PrivacyPolicy from "./router/whatsapp/privacy_policy/index.tsx";
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/project/:projectId",
     element: <ProjectDisplay />,
+  },
+  {
+    path: "/whatsapp/privacy-policy",
+    element: <PrivacyPolicy />,
   },
 ]);
 
