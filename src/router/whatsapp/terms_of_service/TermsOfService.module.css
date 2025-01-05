@@ -1,0 +1,70 @@
+/* PrivacyPolicy.module.css */
+.terms-of-service {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    color: #333;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .terms-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .terms-header h1 {
+    font-size: 2em;
+    color: #222;
+  }
+  
+  .terms-main p, .terms-main li {
+    font-size: 1em;
+  }
+  
+  .terms-main h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #444;
+  }
+  
+  .terms-main h3 {
+    font-size: 1.2em;
+    margin-top: 15px;
+    color: #555;
+  }
+  
+  .terms-main ul {
+    list-style: disc;
+    margin: 10px 0 10px 20px;
+  }
+  
+  .terms-footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .terms-of-service {
+      padding: 15px;
+    }
+  
+    .terms-header h1 {
+      font-size: 1.8em;
+    }
+  
+    .terms-main h2 {
+      font-size: 1.3em;
+    }
+  
+    .terms-main h3 {
+      font-size: 1.1em;
+    }
+  }
+  

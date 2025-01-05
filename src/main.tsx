@@ -7,6 +7,7 @@ import NewsBar from "./component/newsbar/index.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ProjectDisplay from "./router/project/index.tsx";
 import PrivacyPolicy from "./router/whatsapp/privacy_policy/index.tsx";
+import TermsOfService from "./router/whatsapp/terms_of_service/index.tsx";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/whatsapp/privacy-policy",
     element: <PrivacyPolicy />,
+  },
+  {
+    path: "/whatsapp/terms-of-service",
+    element: <TermsOfService />,
   },
 ]);
 
