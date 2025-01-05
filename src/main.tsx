@@ -8,6 +8,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ProjectDisplay from "./router/project/index.tsx";
 import PrivacyPolicy from "./router/whatsapp/privacy_policy/index.tsx";
 import TermsOfService from "./router/whatsapp/terms_of_service/index.tsx";
+import WhatsappRules from "./router/whatsapp/index.tsx";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/project/:projectId",
     element: <ProjectDisplay />,
+  },
+  {
+    path: "/whatsapp",
+    element: <WhatsappRules />,
   },
   {
     path: "/whatsapp/privacy-policy",
