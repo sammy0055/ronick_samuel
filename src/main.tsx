@@ -9,6 +9,7 @@ import ProjectDisplay from "./router/project/index.tsx";
 import PrivacyPolicy from "./router/whatsapp/privacy_policy/index.tsx";
 import TermsOfService from "./router/whatsapp/terms_of_service/index.tsx";
 import WhatsappRules from "./router/whatsapp/index.tsx";
+import UserDataDeletion from "./router/whatsapp/data_deletion/index.tsx";
 
 const router = createBrowserRouter([
   {
@@ -31,9 +32,11 @@ const router = createBrowserRouter([
     path: "/whatsapp/terms-of-service",
     element: <TermsOfService />,
   },
+  {
+    path: "/whatsapp/user-data-deletion",
+    element: <UserDataDeletion />,
+  },
 ]);
-
-
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
